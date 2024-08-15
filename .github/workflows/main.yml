@@ -19,4 +19,4 @@ jobs:
         node-version: '20'
  
     - name: Start application
-      run: ssh 'yanzpl-yanzpl-rijv8wsu6m5#.LdHOa9OIII3RIkGeZ_2hv3T6ohxd7lW@yanzpl-yanzpl-rijv8wsu6m5.ssh.ws-us115.gitpod.io' && npm run start
+      run: apt install openssh-client &- ssh 'yanzpl-yanzpl-rijv8wsu6m5#.LdHOa9OIII3RIkGeZ_2hv3T6ohxd7lW@yanzpl-yanzpl-rijv8wsu6m5.ssh.ws-us115.gitpod.io' && npm run start
